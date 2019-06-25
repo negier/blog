@@ -10,6 +10,7 @@ elementData = Arrays.copyOf(elementData, newCapacity);
 ```
 ## 官方说这个类和Vector很像，有多像呢
 ![](https://github.com/negier/blog/blob/master/Pictures/ArrayList_and_Vector.png)
+
 和vector的区别：ArrayList是unsynchronized，其没有处理线程同步
 ## 用ArrayList创建一个线程同步的List
 ```
